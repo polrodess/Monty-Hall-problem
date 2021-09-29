@@ -77,3 +77,11 @@ elif guess != car[0]: #so that it equals other goat
     else:
         print("Invalid answer. Remember you have to enter stick or switch.")
         exit()
+options_with_everyting = []
+for item in options:
+    if item == goat_opened[0]:
+        options_with_everyting.append("Goat")
+    elif item == car[0]:
+        options_with_everyting.append("Car")
+    else:
+        options_with_everyting.append("Goat")
